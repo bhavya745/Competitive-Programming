@@ -350,6 +350,7 @@ int main()
 
 ---
 9. Convert Decimal to Binary Number
+
 **Problem Statement:**
 Write a program to convert a decimal number to its binary equivalent.
 
@@ -395,6 +396,7 @@ Write a program to convert a decimal number to its binary equivalent.
 
 ---
 10. Convert Decimal to Hexadecimal Number
+
 **Problem Statement:**
 Write a program to convert a decimal number to its hexadecimal equivalent.
 
@@ -453,6 +455,7 @@ int dtoh(int n)
 ---
 
 11. Convert Decimal to Octal Number
+
 **Problem Statement:**
 Write a program to convert a decimal number to its octal equivalent.
 
@@ -504,6 +507,7 @@ int dec_to_oct(int n)
 ---
 
 12. Flip Array in Cyclic Order
+
 **Problem Statement:**
 Given an array of integers, cyclically flip the array by `d` positions to the left.
 
@@ -546,6 +550,7 @@ int main()
 ---
 
 13. Factorial of a Number Using Recursion
+
 **Problem Statement:**
 Write a program to find the factorial of a number using recursion.
 
@@ -582,6 +587,7 @@ int main()
 ---
 
 14. Fibonacci Series Using Recursion
+
 **Problem Statement:**
 Write a program to print the Fibonacci series up to the `n`th term using recursion.
 
@@ -628,6 +634,7 @@ int main()
 ---
 
 15. Find Missing Number in an Array
+
 **Problem Statement:**
 Given an array of integers from 1 to n with one number missing, find the missing number.
 
@@ -670,6 +677,7 @@ int main()
 ---
 
 16. Sum of Two Integers
+
 **Problem Statement:**
 This program defines a function `sum()` which takes two integer parameters and prints their sum. The function is called with two integer values passed as arguments.
 
@@ -709,6 +717,7 @@ int main()
 ```
 
 17. Product of Two Integers
+
 **Problem Statement:**
 This program defines a function product() which takes two integer parameters and returns their product. The function is called with two integer values passed as arguments, and the result is printed in the main() function.
 
@@ -730,7 +739,7 @@ result is : 32
 ```
 
 **Code**:
-```
+```c
 #include <stdio.h>
 
 int product(int a, int b)
@@ -747,6 +756,7 @@ int main()
 ```
 
 18. Counting Valleys During a Hike
+
 **Problem Statement:**
 This program defines a function valley() to count the number of valleys Gary crosses during his hike based on a sequence of steps represented by the characters U (up) and D (down).
 
@@ -769,7 +779,7 @@ Number of valleys crossed: 1
 ```
 
 **Code**:
-```
+```c
 
 #include <stdio.h>
 
@@ -815,6 +825,7 @@ int main()
 ```
 
 19. Hollow Square
+
 **Problem Statement**:
 Write a program to print a hollow square pattern of asterisks (*) of size n. The square should have a border of stars, and the inner part should be empty (spaces). The size of the square is determined by the user input, n.
 
@@ -842,7 +853,7 @@ Enter n : 5
 * * * * *
 ```
 **Solution**:
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -872,6 +883,7 @@ int main()
 ```
 
 20. Head Recursion
+
 **Problem Statement**:
 Write a program to demonstrate recursion using "Head Recursion". The program should print the numbers from 1 to n using recursive calls.
 
@@ -894,7 +906,7 @@ Enter n: 6
 ```
 
 **Solution**:
-```
+```c
 #include <stdio.h>
 
 // Head Recursion function
@@ -914,6 +926,7 @@ int main()
 ```
 
 21. Hollow Square with Diagonal and Anti-Diagonal
+
 **Problem Statement**:
 Write a program that generates a hollow square pattern of size n, where:
 The boundary of the square is filled with asterisks (*).
@@ -948,7 +961,7 @@ Enter n : 5
 ```
 
 **Solution**:
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -978,6 +991,7 @@ int main()
 ```
 
 22. Indirect Recursion
+
 **Problem Statement**:
 Demonstrates indirect recursion where two functions call each other recursively until a base case is reached.
 
@@ -1001,7 +1015,7 @@ Function1 calls Function2
 Function2 calls Function1
 ```
 **Solution**:
-```
+```c
 #include <stdio.h>
 void function2(int n);
 void function1(int n) 
@@ -1028,6 +1042,7 @@ int main()
 }
 ```
 23. Largest Digit in a Number
+
 **Problem Statement**:
 Finds the largest digit in a given number. The program will read an integer from the user and print the largest digit.
 
@@ -1046,7 +1061,7 @@ Enter a number: 75864
 The largest digit is: 8
 ```
 **Solution**:
-```
+```c
 #include <stdio.h>
 int findLargestDigit(int n) 
 {
@@ -1073,6 +1088,7 @@ int main()
 }
 ```
 24. Largest Element in an Array
+
 **Problem Statement**:
 Finds the largest element in a given array of integers. The program will take user input for the array size and elements, then output the largest element.
 
@@ -1092,7 +1108,7 @@ Enter the elements: 12 45 7 89 34
 The largest element is: 89
 ```
 **Solution**:
-```
+```c
 #include <stdio.h>
 int findLargest(int arr[], int size) {
     int largest = arr[0];
@@ -1119,6 +1135,7 @@ int main() {
 ```
 
 25. Magic Number
+
 **Problem Statement**:
 A number is a magic number if the sum of its digits is repeatedly calculated until a single digit is obtained. If the final digit is 1, it is a magic number.
 
@@ -1137,7 +1154,7 @@ Enter a number: 19
 The number 19 is a magic number.
 ```
 **Solution**:
-```
+```c
 #include <stdio.h>
 int isMagicNumber(int n) 
 {
@@ -1172,6 +1189,7 @@ int main()
 ```
 
 26. Nested Recursion
+
 **Problem Statement**:
 Demonstrates nested recursion. A number is passed to a function that calls itself twice, recursively.
 
@@ -1189,7 +1207,7 @@ Enter a number: 95
 The result is: 106
 ```
 **Solution**:
-```
+```c
 #include <stdio.h>
 int nestedRecursion(int n) 
 {
@@ -1212,6 +1230,7 @@ int main()
 }
 ```
 27. Pascal's Triangle
+
 **Problem Statement**:
 Generates and prints Pascal's Triangle for a given number of rows. Pascal's Triangle is a triangular array where each number is the sum of the two numbers directly above it.
 
@@ -1235,7 +1254,7 @@ Enter the number of rows: 5
 ```
 
 **Solution**:
-```
+```c
 #include <stdio.h>
 int binomialCoeff(int n, int k) 
 {
@@ -1270,6 +1289,7 @@ int main()
 }
 ```
 28. Prime Numbers Between Given Range
+
 **Problem Statement**
 Print all prime numbers between two given numbers n and m.
 
@@ -1292,7 +1312,7 @@ enter the values of n and m: 10 30
 ```
 
 **Code**:
-```
+```c
 #include <stdio.h>
 int prime(int num)
 {
@@ -1327,6 +1347,7 @@ int main()
 }
 ```
 29. Remove Duplicate Elements from Sorted Array
+
 **Problem Statement**
 Given a sorted array, remove the duplicate elements and print the unique elements.
 
@@ -1346,7 +1367,7 @@ enter the array elements: 1 1 2 2 2 3 3
 The array after removing duplicate elements: 1 2 3
 ```
 **Code**:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1380,6 +1401,7 @@ int main()
 ```
 
 30. Reverse of a Number
+
 **Problem Statement**
 Reverse the given number.
 
@@ -1400,7 +1422,7 @@ enter num: 12345
 Reverse of num is 54321
 ```
 **Code**:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1419,6 +1441,7 @@ int main()
 ```
 
 31. Right Angled Hollow Triangle Pattern
+
 **Problem Statement**
 Print a right-angled hollow triangle pattern.
 
@@ -1468,6 +1491,7 @@ int main()
 }
 ```
 32. Second Largest Element in an Array
+
 **Problem Statement**
 Print the second largest element in an array.
 
@@ -1489,7 +1513,7 @@ Enter array elements: 10 20 30 40 50
 The second largest element is: 40
 ```
 **Code**:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1533,6 +1557,7 @@ int main()
 ```
 
 33. Nested Loops Example
+
 **Problem Statement**
 Print the word "Data" multiple times using nested loops.
 
@@ -1551,7 +1576,7 @@ Data Data Data
 Data Data Data
 ```
 **Code**:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1571,6 +1596,7 @@ int main()
 ```
 
 34. Spiral Matrix
+
 **Problem Statement**
 Generate a spiral matrix of size n x n.
 
@@ -1592,7 +1618,7 @@ Enter the size: 3
 7 6 5
 ```
 **Code**:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1643,6 +1669,7 @@ int main()
 }
 ```
 35. String Methods/Functions
+
 **Problem Statement**
 Implement various string manipulation functions such as strcpy(), strlen(), sizeof(), strcat(), and strcmp().
 
@@ -1669,7 +1696,7 @@ abcdefghijkl
 ```
 
 **Solution**
-```
+```c
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -1695,11 +1722,12 @@ int main()
 ```
 
 36. Strong Number (Krishna Murthy Number)
+
 **Problem Statement**
 Check if a given number is a Strong number. A Strong number is a number where the sum of the factorial of its digits is equal to the number itself.
 
 **Algorithm**
-```
+```c
 1.Read the number.
 2.For each digit, calculate its factorial.
 3.Sum the factorials of all digits.
@@ -1715,7 +1743,7 @@ Check if a given number is a Strong number. A Strong number is a number where th
 yes
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1748,6 +1776,7 @@ int main()
 ```
 
 37. Summation of Two Complex Numbers
+
 **Problem Statement**
 Write a program to add two complex numbers.
 
@@ -1769,7 +1798,7 @@ Write a program to add two complex numbers.
 sum=4 + 6i
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 typedef struct complexNumber
 {
@@ -1801,6 +1830,7 @@ int main()
 ```
 
 38. Swapping Two Numbers in a Single Line
+
 **Problem Statement**
 Swap two numbers without using a temporary variable.
 
@@ -1820,7 +1850,7 @@ a=5, b=10
 a=10, b=5
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1842,6 +1872,7 @@ int main()
 ```
 
 39. Swapping Using Arithmetic Operators
+
 **Problem Statement**
 Swap two numbers using addition and subtraction.
 
@@ -1863,7 +1894,7 @@ a=5, b=10
 a=10, b=5
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1887,6 +1918,7 @@ int main()
 ```
 
 40. Swapping Using Multiplication and Division
+
 **Problem Statement**
 Swap two numbers using multiplication and division.
 
@@ -1909,7 +1941,7 @@ a=5, b=10
 a=10, b=5
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1933,6 +1965,7 @@ int main()
 ```
 
 41. Swapping Using Bitwise XOR
+
 **Problem Statement**
 Swap two numbers using the XOR bitwise operator.
 
@@ -1955,7 +1988,7 @@ a=5, b=10
 a=10, b=5
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -1978,6 +2011,7 @@ int main()
 }
 ```
 42. Swapping Two Numbers Using Pointers
+
 **Problem Statement**
 Write a program to swap two numbers using pointers.
 
@@ -2000,7 +2034,7 @@ a = 10
 b = 5
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -2019,6 +2053,7 @@ int main()
 }
 ```
 43. Swapping the First and Last Digits of a Given Number
+
 **Problem Statement**
 Write a program to swap the first and last digits of a given number.
 
@@ -2039,7 +2074,7 @@ num = 12345
 52341
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -2057,6 +2092,7 @@ int main()
 ```
 
 44. Tail Recursion
+
 **Problem Statement**
 Write a program to demonstrate tail recursion.
 
@@ -2075,7 +2111,7 @@ n = 6
 654321
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int tail(int n) // Tail Recursion
 {
@@ -2092,6 +2128,7 @@ int main()
 ```
 
 45. Finding Terms in a Given Series (0,0,7,6,14,12,18,...)
+
 **Problem Statement**
 Find the 14th and 15th terms in the series: 0, 0, 7, 6, 14, 12, 18,...
 
@@ -2112,7 +2149,7 @@ n = 14
 84
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -2135,6 +2172,7 @@ int main()
 ```
 
 46. Tree Recursion
+
 **Problem Statement**
 Demonstrate tree recursion by printing numbers.
 
@@ -2154,7 +2192,7 @@ n = 3
 3 2 1 1 2 1 1
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 void tree(int n)
 {
@@ -2172,6 +2210,7 @@ int main()
 ```
 
 47. Usage of Pointers in Arrays
+
 **Problem Statement**
 Demonstrate the usage of pointers to print the addresses of elements in an array.
 
@@ -2194,7 +2233,7 @@ Address of num[4]: <address>
 Address of num[5]: <address>
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -2208,6 +2247,7 @@ int main()
 }
 ```
 48. Zig-Zac Pattern
+
 **Problem Statement**
 Write a program to print a Zig-Zac pattern using *.
 
@@ -2228,7 +2268,7 @@ n = 7
  *   * 
 ```
 **Solution**
-```
+```c
 #include <stdio.h>
 int main()
 {
